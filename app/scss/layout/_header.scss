@@ -1,0 +1,32 @@
+.header{
+    background-color: $white;
+}
+.lang-content{
+    display: none;
+    position: absolute;
+    background-color: $lang-bg;
+    width: 100px;
+    padding-top: 20px;
+    border-radius: 5px;
+    top: 29px;
+    left: 0;
+    box-shadow: 0 8px 15px $white;
+    &:hover{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+.lang-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.lang-image{
+    object-fit: contain;
+    height: 25px;
+}

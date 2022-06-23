@@ -1,0 +1,157 @@
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue:    #3A85F4;
+$indigo:  #E5E5E5;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #EBFFFA;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+) !default;
+// scss-docs-end colors-map
+$robotobold: 'Roboto', sans-serif;
+$robotomedium: 'Roboto', sans-serif;
+$robotoregular:'Roboto', sans-serif;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     #FDFFE7;
+$success:       $green;
+$info:          $gray-200;
+$warning:       #F9FBFF;
+$danger:        $red !default;
+$light:         #F9FBFF;
+$dark:          #EBF3FF;
+$font-size-base:              1rem;
+$line-height-base:            1.5;
+$input-btn-font-size:         0.8rem;
+$small-font-size:             .8rem;
+
+$font-size-base:              1rem;
+$input-btn-padding-y:         6px;
+$input-btn-padding-x:         18px;
+$input-btn-font-family:       $robotoregular;
+$btn-link-color:              $white;
+$btn-font-weight:             700;
+$btn-white-space:             nowrap;
+$border-radius:               10px;
+$btn-border-radius:           100px;
+$grid-gutter-width:           20px;
+$border-radius-lg:            .8rem;
+$border-color:                #D6E5FF;
+
+$badge-font-size:                   9px;
+$badge-color:                       $gray-700;
+$badge-padding-y:                   9px;
+$badge-padding-x:                   9px;
+
+$h1-font-size:                $font-size-base * 2;
+$h2-font-size:                $font-size-base * 1.75;
+$h3-font-size:                $font-size-base * 1.5;
+$h4-font-size:                $font-size-base * 1.25;
+$h5-font-size:                $font-size-base * 1;
+$headings-line-height:        1;
+$headings-font-weight:        700;
+
+$card-border-color:           none;
+$card-box-shadow:             0 5px 15px 0 #0000000F;
+$input-border-radius:         none;
+$input-bg:                    #F2F7FF;
+$input-border-color:          #F2F7FF;
+$input-box-shadow:            0 5px 15px 0 #E9F1FF;
+$modal-md:                    380px;
+$modal-content-border-radius: 10px;
+$nav-tabs-border-color:       2px solid $primary;
+$nav-tabs-link-active-border-color:     $primary;
+
+// Custom styles 
+$lang: #575756;
+$lang-bg: #CCE7FF;
+$text:#2F2F2F;
+$textBold:#383838;
+$button-primary:#3A85F4;
+$col-card-bg:#FEFEFF;
+$col-card-shadow:#0000000F;
+$chat-btn:#B1CEFF;
+$footer-bg:#262628;
+$section-banner-bg: linear-gradient(270deg, rgba(204,231,255,1) 0%, rgba(255,255,255,1) 100%);
+$icon-more:      #DCDCDC;
+$nav-border-color:#DFDFDF;
+$bg-gray:#F6F6F6;
+$app-content-shadow: 0px 0px 23px 0px #2B7BD31A;
+$eye-btn-color:#F2F7FF;
+$nav-tabs-form-active:#F9FBFF;
+$nav-tabs-form:#E7F0FF;
+$nav-form-color:#849DC7;
+$personal-border:#CADCF8;
+$media-content-box-shadow: 0 8px 23px #2C80FF33;
+$footer-list-border:1px solid #343434;
+$chat-banner-bg:#F2F2F2;
+$chat-block-bg:#EEF2FB;
+$text-green:#A6CE39;
+
+$body-bg:                   $white;
+$body-color:                $text;
+
+$size-xs: 320px;
+$size-sm: 476px;
+$size-md: 768px;
+$size-lg: 1024px;
+$size-xl: 1200px;
+$size-xxl: 1400px;

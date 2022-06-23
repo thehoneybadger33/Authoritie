@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Authoritie</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header py-2 py-sm-1">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-5 col-sm-4 col-md-6 col-lg-2 order-lg-first">
+                <a class="logo" href="#"><img src="images/logo01.svg" alt="logo"></a>
+                <a class="logo" href="#"><img src="images/logo02.png" alt="logo"></a>
+            </div>
+            <div class="col-2 col-sm-4 col-md-3 d-none d-sm-flex justify-content-center order-2">
+                <button class="btn btn-outline-primary px-lg-5">Создать заявку</button>
+            </div>
+            <div class="col-2 col-xs-2 col-lg-1 d-none d-sm-flex justify-content-center order-3">
+                <button class="icon position-relative">
+                    <i class="fas fa-comments">
+                        <span class="position-absolute start-80 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                    </i>
+                </button>
+                <button class="icon position-relative">
+                    <i class="fas fa-bell">
+                        <span class="position-absolute start-80 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                    </i>
+                </button>
+            </div>
+            <div class="col-1 d-none d-lg-flex order-4 position-relative justify-content-end">
+                <a class="d-flex" href="#">
+                    <img src="images/ico11.svg" alt="personal-icon">
+                    <span class="position-absolute end-0 top-0 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                </a>
+            </div>
+            <div class="col-2 d-flex position-relative d-sm-none">
+                <div class="dropdown d-flex flex-row align-items-center">
+                        <img src="images/ico01.svg" alt="planet-logo">
+                        <span class="header-lang" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">RU</span>
+                    <div class="dropdown-menu top-50" aria-labelledby="dropdownMenu2">
+                        <div class="d-flex ps-1 ">
+                            <ul class="list-content ">
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">RU</a><img class="lang-image" src="" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">ENG</a><img class="lang-image" src="" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">ESP</a><img class="lang-image" src="" alt=""></li>
+                            </ul>
+                            <ul class="list-content ps-3">
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag01.svg" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag02.svg" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag03.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-light col-5 col-sm-2 col-md-1 d-lg-none justify-content-end d-flex order-4">
+                <button class="main-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <img src="images/ico02.svg" alt="menu">
+                </button>
+                <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header d-flex">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <a class="logo" href="#"><img src="images/logo01.svg" alt="logo"></a>
+                            <a class="logo" href="#"><img src="images/logo02.png" alt="logo"></a>
+                        </div>
+                            <button class="btn btn-outline-primary px-3">+ Заявка</button>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center bg-light position-relative">
+                        <ul class="navbar-nav text-center mb-5">
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Аналитика</a>
+</li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Сообщество</a>
+</li>
+
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Для организаций</a>
+</li>
+                        </ul>
+                        <a class="enter-btn ps-4" href="#">Войти</a>
+                        <div class="dropup d-flex flex-row align-items-center ps-4 position-absolute bottom-0">
+                            <img src="images/ico01.svg" alt="planet-logo">
+                            <button type="button" class="btn btn-secondary dropdown-toggle bg-light ps-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU
+                            </button>
+                            <div class="dropdown-menu start-0" aria-labelledby="dropdownMenu2">
+                                <div class="d-flex ps-1 ">
+                                    <ul class="list-content ">
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">RU</a><img class="lang-image" src="" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">ENG</a><img class="lang-image" src="" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">ESP</a><img class="lang-image" src="" alt=""></li>
+                                    </ul>
+                                    <ul class="list-content ps-3">
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag01.svg" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag02.svg" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag03.svg" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="offcanvas-body d-none col-lg-5 d-lg-flex flex-direction-row order-5 order-lg-1">
+                <ul class="navbar-nav d-flex flex-row">
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black" aria-current="page" href="#">Аналитика</a>
+</li>
+
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black" aria-current="page" href="#">Сообщество</a>
+</li>
+
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black text-nowrap" aria-current="page" href="#">Для организаций</a>
+</li>
+                </ul>
+            </div>
+    </div>
+</header>
+
+    <main class="main">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body py-5">
+                <h4 class="text-center fs-2 mb-5">Оставить отзыв</h4>
+                <form>
+                    <div class="mb-4">
+                        <label class="visually-hidden" for="Email2"></label>
+                        <input type="email" class="form-control rounded-top border-bottom border-5" placeholder="Ваше имя" id="Email2"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4">
+                        <label class="visually-hidden" for="Password2"></label>
+                        <input type="password" class="form-control rounded-top border-bottom border-5 pe-5" placeholder="Название работы"
+                            id="Password22">
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="" style="height: 150px;">
+                        <label for="floatingInput">Введите ваш отзыв</label>
+                    </div>
+                    <p class="text-center">Оцените работу</p>
+                    <div class="rating-css d-flex justify-content-center">
+                        
+                        
+                        
+                        
+                        <input type="radio" value="1" id="rating1-1" name="name0" checked>
+<label for="rating1-1" class="fa fa-star"></label>
+                    
+                        
+                        
+                        
+                        
+                        <input type="radio" value="2" id="rating1-2" name="name0" checked>
+<label for="rating1-2" class="fa fa-star"></label>
+                    
+                        
+                        
+                        
+                        
+                        <input type="radio" value="3" id="rating1-3" name="name0" checked>
+<label for="rating1-3" class="fa fa-star"></label>
+                    
+                        
+                        
+                        
+                        
+                        <input type="radio" value="4" id="rating1-4" name="name0" checked>
+<label for="rating1-4" class="fa fa-star"></label>
+                    
+                        
+                        
+                        
+                        
+                        <input type="radio" value="5" id="rating1-5" name="name0" checked>
+<label for="rating1-5" class="fa fa-star"></label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <button type="button" class="btn btn-primary text-white px-5">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="d-flex flex-column bg-warning h-100">
+    <div class="container">
+        <div class="d-flex w-100 h-100">
+            <div id="openMenu" class="chat-menu bg-warning">
+                <div class="chat-menu-content d-flex flex-column pt-4 py-3 px-3">
+                    <div id="dialogue" class="chat-group d-flex justify-content-between align-items-center rounded py-4 px-3 border-0 mb-5">
+                        <p class="me-5 mb-0 fw-bold">Поддержка</p>
+                        <span class="badge bg-primary rounded-3 text-white">3</span>
+                    </div>
+                    <p class="text-black opacity-50 fs-5 fw-bold mb-1">Отклики</p>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2 w-100">
+                        <div class="d-flex align-items-center w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-1 d-block">Иван Иванов</span>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Процитировать других</button>
+                                    <button class="btn btn-outline-primary px-2 py-0">+2</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end w-100">
+                                <span class="badge bg-primary rounded-3 text-white">3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-primary px-2 py-0">Принять в соавторы</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end w-100">
+                                <span class="badge bg-primary rounded-3 text-white">1</span>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Деньги</button>
+                                    <span class="d-block ms-1 fs-5">$2500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Стать соавтором</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end w-100">
+                                <span class="badge bg-primary rounded-3 text-white">2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Заказать работу с текстом и г...</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Найти эксперта</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end w-100">
+                                <span class="badge bg-primary rounded-3 text-white">2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Принять в соавторы</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end w-100">
+                                <span class="badge bg-primary rounded-3 text-white">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-group d-flex align-items-center rounded pt-3 px-2 pe-3 pb-0 border-0 mb-2">
+                        <div class="d-flex align-items-center justify-content-start w-100 mb-3">
+                            <img src="images/ico34.svg" alt="account-image">
+                            <div class="d-flex flex-column ps-2 ">
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-sm-none text-nowrap">Вопросы проектирования...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none d-lg-block text-nowrap">Вопросы проектирования трансатлантическ...</p>
+                                <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-lg-none text-nowrap">Вопросы проектирования тр...</p>
+                                <span class="text-black opacity-50 mb-2 d-block">Иван Иванов</span>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-outline-primary px-2 py-0 me-1">Деньги</button>
+                                    <span class="d-block ms-1 fs-5">$2500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column w-100">
+                <div class="px-md-3 py-3">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <button id="chat-menu" class="chat-banner-btn bg-wanring d-block d-md-none"><img src="images/ico30.svg" alt="chevron-icon"></button>
+                        <img src="images/ico11.svg" alt="account-image">
+                        <div class="d-flex flex-column ps-1 me-1">
+                            <p class="fw-bold mb-1 small text-nowrap  lh-1 d-sm-none text-nowrap">Вопросы проектирования т...</p>
+                            <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-sm-block d-md-none">Вопросы проектирования трансатлантическ...</p>
+                            <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-md-block d-xl-none">Вопросы проектирования трансатл...</p>
+                            <p class="fw-bold mb-1 small mb-0 lh-1 d-none d-xl-block">Вопросы проектирования трансатлантического межнационал...</p>
+                            <p class="small mb-2 text-nowrap d-xl-none">Вопросы проектирования транс...</p>
+                            <p class="small mb-2 text-nowrap d-none d-xl-block">Вопросы проектирования трансатлантического межнационального прод...</p>
+                            <div class="d-flex">
+                                <button class="btn btn-outline-primary px-2 py-0 me-1">Процитировать других</button>
+                                <button class="btn btn-outline-primary px-2 py-0 d-lg-none">+2</button>
+                                <button class="btn btn-outline-primary px-2 py-0 me-1 d-none d-xl-block">Стать соавтором</button>
+                                <button class="btn btn-outline-primary px-2 py-0 me-1 d-none d-xl-block">Выполнить исследования</button>
+                            </div>
+                        </div>
+                        <div class="dropdown d-block">
+                            <button class="chat-banner-btn bg-warning ms-1 " type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false"><img src="images/ico31.svg" alt="dots-icon"></button>
+                            <ul class="dropdown-menu pe-2" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button"><img class="me-1" src="images/ico35.svg" alt="icon"> Перейти в профиль</button></li>
+                                <li><button class="dropdown-item" type="button"><img class="me-2" src="images/ico36.svg" alt="icon">Посмотреть вложения</button></li>
+                                <li><button class="dropdown-item" type="button"><img class="me-2" src="images/ico37.svg" alt="icon">Пожаловаться</button></li>
+                                <li><button class="dropdown-item" type="button"><img class="me-2" src="images/ico38.svg" alt="icon">Заблокировать</button></li>
+                                <li><button class="dropdown-item" type="button"><img class="me-2" src="images/ico39.svg" alt="icon">Удалить чат</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-content pt-3 px-3">
+                    <p class="text-center text-black opacity-50 mb-3">Сегодня</p>
+                    <div class="d-flex align-items-start ms-2 position-relative ms-5">
+                        <img class="me-2 position-absolute end-100" src="images/ico33.svg" alt="login-icon">
+                        <div class="chat-block position-relative d-flex rounded-end rounded-top mb-sm-2 mb-4 px-3 py-2">
+                            <p class="mb-0">Здравствуйте.<br><br>Предлагаю свои услуги по обучению английскому языку и/или подготовке к
+                                экзаменам. Помогу разобраться с грамматикой, увеличить словарный запас, научиться воспринимать иностранную
+                                речь на слух.<br><br>С уважением, Наталья</p>
+                            <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start position-relative flex-row-reverse ms-5 me-5">
+                        <img class="ms-2 position-absolute start-100 top-0 d-none d-sm-block" src="images/ico33.svg" alt="login-icon">
+                        <div class="chat-block-secondary d-none d-sm-block bg-info position-relative rounded-start rounded-top mb-sm-2 mb-4 px-3 py-2">
+                            <p class="mb-0 pe-1">Здравствуйте. Предлагаю свои услуги по обучению английскому языку и/или подготовке к экзаменам. Помогу разобраться с грамматикой.</p>
+                            <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                        </div>
+                    </div> 
+                    <div class="bg-info d-none d-sm-flex align-self-end position-relative rounded-start rounded-bottom mb-sm-2 mb-4 px-3 py-2 mx-5">
+                        <p class="mb-0 pe-5">Стоимость занятия 1200 руб. / 90 мин.</p>
+                        <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                    </div>
+                    <div class="d-none d-xl-flex align-items-start ms-2 position-relative ms-5">
+                        <img class="me-2 position-absolute end-100" src="images/ico33.svg" alt="login-icon">
+                        <div class="chat-block position-relative d-flex rounded-end rounded-top mb-sm-2 mb-4 px-3 py-2">
+                            <p class="mb-0">Здравствуйте.<br><br>Предлагаю свои услуги по обучению английскому языку и/или подготовке к
+                                экзаменам. Помогу разобраться с грамматикой, увеличить словарный запас, научиться воспринимать иностранную
+                                речь на слух.<br><br>С уважением, Наталья</p>
+                            <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex align-items-start position-relative flex-row-reverse ms-5 me-5">
+                        <img class="ms-2 position-absolute start-100 top-0 d-none d-sm-block" src="images/ico33.svg" alt="login-icon">
+                        <div class="chat-block-secondary d-none d-sm-block bg-info position-relative rounded-start rounded-top mb-sm-2 mb-4 px-3 py-2">
+                            <p class="mb-0 pe-1">Здравствуйте. Предлагаю свои услуги по обучению английскому языку и/или подготовке к
+                                экзаменам. Помогу разобраться с грамматикой.</p>
+                            <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                        </div>
+                    </div>
+                    <div class="bg-info d-none d-xl-flex align-self-end position-relative rounded-start rounded-bottom mb-sm-2 mb-4 px-3 py-2 mx-5">
+                        <p class="mb-0 pe-5">Стоимость занятия 1200 руб. / 90 мин.</p>
+                        <span class="position-absolute end-0 bottom-0 me-2 pb-1 small text-dark">18:22</span>
+                    </div>
+                </div>
+                <div class="chat-footer w-100 bg-light pt-2 pb-2 mt-auto">
+                    <div class="d-block border-bottom pb-3 mb-3">
+                        <p class="text-black opacity-50 text-center small mb-0 d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <a href="#" class="fw-bold text-black">incididunt ut labore</a> et dolore magna aliqua.</p>
+                    </div>
+                    <button class="btn btn-outline-primary mb-3 py-sm-2 px-sm-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить отзыв</button>
+                    <div class="d-flex align-items-center ">
+                        <button class="plus-btn btn-outline-primary"></button>
+                        <div class="form-check w-100 ps-2">
+                            <label class="visually-hidden" for="inputLetter"></label>
+                            <input class="w-100 border rounded-3 px-2" style="background-color: #E6EBF4;" type="text" id="inputLetter"
+                                placeholder="  Сообщение...">
+                        </div>
+                        <button class="sending-btn btn-outline-primary ms-2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+    </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

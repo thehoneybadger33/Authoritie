@@ -1,0 +1,134 @@
+.main-btn{
+    border: none;
+    background-color: $white;
+}
+.chevron-btn{
+    color: $primary;
+    border: 2px solid $primary;
+    padding: 2px 9px;
+    background-color: $white;
+    border-radius: 100px;
+    &:hover{
+        color: $white;
+        border: 2px solid $white;
+        background-color: $primary;
+    }
+}
+.eye-btn{
+    position: absolute;
+    top: 5px;
+    right: 13px;
+    background-color: $eye-btn-color;
+    border: none;
+}
+.enter-btn{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico19.svg) no-repeat;
+        width: 17px;
+        height: 18px;
+        top: 4px;
+        left: 0;
+    }
+}
+.btn-close{
+    .modal-content &[aria-label="Close"]{
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        background-color: $light;
+        border: 1px solid $light;
+        opacity: 1;
+        border-radius: 100px;
+        padding: 4px;
+    }
+}
+.chat-banner-btn{
+    background-color: $warning;
+    border: none;
+}
+.plus-btn{
+    border-radius: 100px;
+    border: none;
+    background-color: $primary;
+    color: $white;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "+";
+        color: $white;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.sending-btn{
+    border: none;
+    background-color: $primary;
+    width: 29px;
+    height: 26px;
+    position: relative;
+    border-radius: 50px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico32.svg) no-repeat;
+        width: 12px;
+        height: 13px;
+        top: 50%;
+        right: 10%;
+        transform: translate(-50%, -50%);
+    }
+}
+.password-btn{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico46.svg) no-repeat;
+        width: 17px;
+        height: 18px;
+        left: 0;
+        top: 1px;
+    }
+}
+.exit-btn{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico45.svg) no-repeat;
+        width: 16px;
+        height: 19px;
+        left: 2px;
+        top: 1px;
+    }
+}
+.cancel-btn{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico44.svg) no-repeat;
+        width: 16px;
+        height: 16px;
+        left: 3px;
+        top: 4px;
+    }
+}
+.info-btn{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico53.svg) no-repeat;
+        width: 10px;
+        height: 10px;
+        top: 9px;
+        right: 0;
+    }
+}

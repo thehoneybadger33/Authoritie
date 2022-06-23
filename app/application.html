@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Authoritie</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header py-2 py-sm-1">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-5 col-sm-4 col-md-6 col-lg-2 order-lg-first">
+                <a class="logo" href="#"><img src="images/logo01.svg" alt="logo"></a>
+                <a class="logo" href="#"><img src="images/logo02.png" alt="logo"></a>
+            </div>
+            <div class="col-2 col-sm-4 col-md-3 d-none d-sm-flex justify-content-center order-2">
+                <button class="btn btn-outline-primary px-lg-5">Создать заявку</button>
+            </div>
+            <div class="col-2 col-xs-2 col-lg-1 d-none d-sm-flex justify-content-center order-3">
+                <button class="icon position-relative">
+                    <i class="fas fa-comments">
+                        <span class="position-absolute start-80 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                    </i>
+                </button>
+                <button class="icon position-relative">
+                    <i class="fas fa-bell">
+                        <span class="position-absolute start-80 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                    </i>
+                </button>
+            </div>
+            <div class="col-1 d-none d-lg-flex order-4 position-relative justify-content-end">
+                <a class="d-flex" href="#">
+                    <img src="images/ico11.svg" alt="personal-icon">
+                    <span class="position-absolute end-0 top-0 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                </a>
+            </div>
+            <div class="col-2 d-flex position-relative d-sm-none">
+                <div class="dropdown d-flex flex-row align-items-center">
+                        <img src="images/ico01.svg" alt="planet-logo">
+                        <span class="header-lang" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">RU</span>
+                    <div class="dropdown-menu top-50" aria-labelledby="dropdownMenu2">
+                        <div class="d-flex ps-1 ">
+                            <ul class="list-content ">
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">RU</a><img class="lang-image" src="" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">ENG</a><img class="lang-image" src="" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text">ESP</a><img class="lang-image" src="" alt=""></li>
+                            </ul>
+                            <ul class="list-content ps-3">
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag01.svg" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag02.svg" alt=""></li>
+                                
+                                
+                                <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag03.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-light col-5 col-sm-2 col-md-1 d-lg-none justify-content-end d-flex order-4">
+                <button class="main-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <img src="images/ico02.svg" alt="menu">
+                </button>
+                <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header d-flex">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <a class="logo" href="#"><img src="images/logo01.svg" alt="logo"></a>
+                            <a class="logo" href="#"><img src="images/logo02.png" alt="logo"></a>
+                        </div>
+                            <button class="btn btn-outline-primary px-3">+ Заявка</button>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center bg-light position-relative">
+                        <ul class="navbar-nav text-center mb-5">
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Аналитика</a>
+</li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Сообщество</a>
+</li>
+
+                            
+                            
+                            
+                            <li class="nav-item px-2">
+    <a class="nav-link active text-black fs-5 text-decoration-underline" aria-current="page" href="#">Для организаций</a>
+</li>
+                        </ul>
+                        <a class="enter-btn ps-4" href="#">Войти</a>
+                        <div class="dropup d-flex flex-row align-items-center ps-4 position-absolute bottom-0">
+                            <img src="images/ico01.svg" alt="planet-logo">
+                            <button type="button" class="btn btn-secondary dropdown-toggle bg-light ps-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU
+                            </button>
+                            <div class="dropdown-menu start-0" aria-labelledby="dropdownMenu2">
+                                <div class="d-flex ps-1 ">
+                                    <ul class="list-content ">
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">RU</a><img class="lang-image" src="" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">ENG</a><img class="lang-image" src="" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text">ESP</a><img class="lang-image" src="" alt=""></li>
+                                    </ul>
+                                    <ul class="list-content ps-3">
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag01.svg" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag02.svg" alt=""></li>
+                                        
+                                        
+                                        <li class="lang-item"><a href="#" class="lang-text"></a><img class="lang-image" src="images/flag03.svg" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="offcanvas-body d-none col-lg-5 d-lg-flex flex-direction-row order-5 order-lg-1">
+                <ul class="navbar-nav d-flex flex-row">
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black" aria-current="page" href="#">Аналитика</a>
+</li>
+
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black" aria-current="page" href="#">Сообщество</a>
+</li>
+
+                    
+                    
+                    
+                    <li class="nav-item px-1">
+    <a class="nav-link active text-black text-nowrap" aria-current="page" href="#">Для организаций</a>
+</li>
+                </ul>
+            </div>
+    </div>
+</header>
+
+    <main class="main">
+        <div class="application-content">
+    <div class="container">
+        <div class="d-flex text-center text-sm-start flex-column">
+            <h1 class="pb-2">Создание заявки</h1>
+        </div>
+        <form action="#" class="application-form mb-5">
+            <nav class="d-xl-flex justify-content-between align-items-end">
+                <p class="small mb-3 order-2 text-center text-sm-start">Для публикации заявки вам необходимо <a href="#">зарегистрироваться.</a></p>
+                <div class="nav nav-tabs flex-row justify-content-sm-start order-1" id="nav-tab" role="tablist">
+                    <button class="nav-link active px-4 py-3 py-sm-1 px-sm-5 py-lg-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+                        role="tab" aria-controls="nav-profile" aria-selected="true">Я заказчик</button>
+                    <button class="nav-link rounded-end-2 px-sm-5 py-lg-3 text-nowrap" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+                        role="tab" aria-controls="nav-contact" aria-selected="false">Я исполнитель</button>
+                </div>
+            </nav>
+            <div class="form-body" id="nav-tabContent">
+                <div class="tab-pane bg-warning pt-5 px-3 pb-3 rounded-bottom fade show active shadow" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">
+                        <div class="col-12 col-lg-5">
+                            <div class="d-flex mb-3">
+                                <img class="bg-warning" src="images/ico20.svg" alt="icon">
+                                <p class="text-primary fw-bold ms-1 mb-0">Я хочу</p>
+                            </div>
+                            <div class="bg-white rounded-2 shadow ps-3 pe-1 pe-sm-2 py-3 mb-5 small">
+                                <div class="form-check mb-2">
+                                    
+                                    
+                                    
+                                    
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+<label class="form-check-label" for="flexRadioDefault1">
+    Повысить цитируемость своих работ
+</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    
+                                    
+                                    
+                                    
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+<label class="form-check-label" for="flexRadioDefault2">
+    Стать соавтором
+</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    
+                                    
+                                    
+                                    
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+<label class="form-check-label" for="flexRadioDefault3">
+    Заказать исследования
+</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    
+                                    
+                                    
+                                    
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+<label class="form-check-label" for="flexRadioDefault4">
+    Заказать работу с текстом и графикой
+</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    
+                                    
+                                    
+                                    
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+<label class="form-check-label" for="flexRadioDefault5">
+    Найти эксперта
+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <div class="d-flex mb-3">
+                                <img class="bg-warning" src="images/ico21.svg" alt="icon">
+                                <p class="text-primary fw-bold ms-2 mb-0">Я предлагаю</p>
+                            </div>
+                            <div class="bg-white rounded-2 shadow w-lg-25 pe-1 pe-md-3 px-3 py-3 mb-5 small">
+                                <div class="d-block d-md-flex">
+                                    <div class="d-block w-75">
+                                        <div class="form-check mb-2">
+                                            
+                                            
+                                            
+                                            
+                                            <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault">
+<label class="form-check-label" for="flexCheckDefault">
+    Процитировать других
+</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            
+                                            
+                                            
+                                            
+                                            <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault1">
+<label class="form-check-label" for="flexCheckDefault1">
+    Принять в соавторы
+</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            
+                                            
+                                            
+                                            
+                                            <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault2">
+<label class="form-check-label" for="flexCheckDefault2">
+    Выполнить исследования
+</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            
+                                            
+                                            
+                                            
+                                            <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault3">
+<label class="form-check-label" for="flexCheckDefault3">
+    Выполнить работу с текстом и графикой
+</label>
+                                        </div>
+                                        <div class="form-check mb-3 mb-lg-2">
+                                            
+                                            
+                                            
+                                            
+                                            <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault4">
+<label class="form-check-label" for="flexCheckDefault4">
+    Предоставить экспертные услуги
+</label>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-none d-md-block border-start pe-3"></div>
+                                        <div class="d-block w-100">
+                                            <div class="pe-4 ps-3 mb-3 mb-lg-0">
+                                                <div class="border-bottom d-md-none"></div>
+                                            </div>
+                                            <div class="form-check d-flex align-items-center mb-2 mb-md-3">
+                                                <div class="text-nowrap">
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <input class="form-check-input text-nowrap" type="checkbox" name="flexRadioDefault" id="flexCheckDefault5">
+<label class="form-check-label" for="flexCheckDefault5">
+    Оплатить деньгами
+</label>
+                                                </div>
+                                                <button class="main-btn"><img src="images/ico22.svg" alt="i-icon"></button>
+                                            </div>
+                                            <div class="d-flex flex-md-column align-items-center">
+                                                <div class="input-group d-flex justify-content-center mb-md-3">
+                                                    <span class="input-group-text visually-hidden" id="inputGroup-sizing-default"></span>
+                                                    <input type="number" class="form-control rounded-top border-bottom border-5" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                                </div>
+                                                <select class="form-select-sm d-flex justify-content-end mx-2 border-0 fs-4 bg-white" aria-label="Default select example">
+                                                    <option selected>UAH</option>
+                                                    <option value="1">USD</option>
+                                                    <option value="2">RUB</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <img class="bg-warning" src="images/ico23.svg" alt="icon">
+                        <p class="text-primary fw-bold ms-2 mb-0">Название работы</p>
+                    </div>
+                    <div class="bg-white rounded-2 mb-5 shadow small">
+                        <div class="form-floating">
+                            <textarea class="form-control bg-white border-0 rounded-2 text-dark" placeholder="Введите название" id="floatingTextarea2" style="height: 130px"></textarea>
+                            <label for="floatingTextarea2">Введите название</label>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <img class="bg-warning" src="images/ico24.svg" alt="icon">
+                        <p class="text-primary fw-bold ms-2 mb-0">Описание работы</p>
+                    </div>
+                    <div class="bg-white rounded-2 mb-5 shadow small">
+                        <div class="form-floating">
+                            <textarea class="form-control bg-white border-0 rounded-2 text-dark" placeholder="Введите название" id="floatingTextarea2" style="height: 230px"></textarea>
+                            <label for="floatingTextarea2">Введите название</label>
+                        </div>
+                    </div>
+                    <div class="row ailign-self-stretch">
+                        <div class="col-12 col-lg-5">
+                            <div class="d-flex mb-3">
+                                <img class="bg-warning" src="images/ico25.svg" alt="icon">
+                                <p class="text-primary fw-bold ms-2 mb-0">Ключевые слова</p>
+                            </div>
+                            <div class="bg-white rounded-2 mb-2 pb-md-5 px-2 py-3 shadow">
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">первый и очень длинный ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                                
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">второй ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                                
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">третий ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                                
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">четвертый ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                                
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">пятый ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                                
+                                
+                                
+                                
+                                <span class="badge border rounded-pill me-1 mb-1 text-start">шестой ключ<button class="main-btn"><img src="images/ico26.svg" alt=""></button>
+</span>
+                            </div>
+                            <span class="mb-5 d-block small text-dark">Пример: <strong>Первый ключ; Второй ключ;</strong></span>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-5">
+                            <div class="d-flex mb-3">
+                                <img class="bg-warning" src="images/ico25.svg" alt="icon">
+                                <p class="text-primary fw-bold ms-2 mb-0">Область знаний</p>
+                            </div>
+                            <div class="bg-white rounded-2 mb-5 px-2 py-3 shadow d-flex overflow-auto">
+                                <div class=" w-100 fs-5 me-2 me-lg-5">
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault6">
+<label class="form-check-label" for="flexCheckDefault6">
+    Biology/Genetics
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault7">
+<label class="form-check-label" for="flexCheckDefault7">
+    Neuro/Psycho
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault8">
+<label class="form-check-label" for="flexCheckDefault8">
+    Medicine/Pharma
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault9">
+<label class="form-check-label" for="flexCheckDefault9">
+    Chemistry
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault10">
+<label class="form-check-label" for="flexCheckDefault10">
+    Social
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault11">
+<label class="form-check-label" for="flexCheckDefault11">
+    Humanities/Arts
+</label>
+                                    </div>    
+                                </div>
+                                <div class="d-flex flex-column w-100 fs-5">
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault12">
+<label class="form-check-label" for="flexCheckDefault12">
+    Math/Computer
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault13">
+<label class="form-check-label" for="flexCheckDefault13">
+    Physics/Astronomy
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault14">
+<label class="form-check-label" for="flexCheckDefault14">
+    Engineering/Material
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault15">
+<label class="form-check-label" for="flexCheckDefault15">
+    Earth/Environment
+</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        
+                                        
+                                        
+                                        
+                                        <input class="form-check-input " type="checkbox" name="flexRadioDefault" id="flexCheckDefault16">
+<label class="form-check-label" for="flexCheckDefault16">
+    Management/Economics
+</label>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-7 col-sm-5 col-md-4 col-lg-3 col-xl-2">
+                            <div class="d-flex mb-3">
+                                <p class="text-primary fw-bold ms-2 mb-0">Срок исполнения</p>
+                            </div>
+                            <div class="bg-white rounded-2 mb-5 px-2 py-2 shadow">
+                                <div class="form-check ps-2 d-flex justify-content-between">
+                                    <label class="visually-hidden" for="birthday"></label>
+                                    <input class="date-input border-0 text-dark small d-block w-75 me-2" type="number" id="birthday" name="birthday" placeholder="__  /  __  /  ____">
+                                    <button class="main-btn"><img src="images/ico27.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm d-flex justify-content-center order-2 order-sm-1 justify-content-sm-end align-items-center">
+                            <div class="d-flex justify-content-end position-relative">
+                                <a class="text-primary opacity-50 text-decoration-none ps-4" href="#">Удалить заявку</a>
+                                <img class="position-absolute top-0 start-0" src="images/ico28.svg" alt="trash-icon">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center order-1 align-items-center mb-4">
+                            <div class="d-flex justify-content-end position-relative">
+                                <a class="text-black text-decoration-none ps-4" href="#">Приватная заявка</a>
+                                <img class="position-absolute start-0 top-0" src="images/ico29.svg" alt="eye-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </form>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+        <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-sm-row mb-3">
+                <button type="button" class="btn btn-primary text-white mb-2 mb-sm-0 order-sm-2 ms-sm-2" data-bs-toggle="modal" data-bs-target="#exampleModal">ЗАРЕГЕСТРИРОВАТЬСЯ И ОПУБЛИКОВАТЬ</button>
+                <button type="button" class="btn btn-outline-primary order-sm-1">+ ДОБАВИТЬ ЗАЯВКУ</button>
+            </div>
+        </div>
+        <p class="text-center small text-black opacity-50">Вам не придется заново заполнять форму, после регистрации<br>ваша заявка будет отправлена на публикацию.</p>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content d-flex justify-content-center pb-4">
+            <div class="modal-header border-0 justify-content-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                <h5 class="fs-4 fw-bold" id="exampleModalLabel">Заявка сформирована!</h5>
+                <p class="w-75 text-center small">Ваша заявка отправлена на модерацию. После проверки вам придет оповещение о её публикации.</p>
+                <div class="d-flex flex-column">
+                    <button class="btn btn-primary text-white px-5 d-block mb-2">Перейти к заявкам</button>
+                    <button class="btn btn-outline-primary text-primary px-5 d-block">На главную</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="row d-flex flex-column text-md-center">
+            <div class="col-md-12 col-6 order-md-2 mb-15">
+                
+                
+                <a href="#" class="footer-ico"><img src="images/facebook.svg" alt="facebook"></a>
+
+                
+                
+                <a href="#" class="footer-ico"><img src="images/instagram.svg" alt="instagram"></a>
+
+                
+                
+                <a href="#" class="footer-ico"><img src="images/telegram.svg" alt="telegram"></a>
+            </div>
+            <div class="col order-md-1 flex-end">
+                <ul class="footer-list">
+                    
+                    <li class="footer-item"><a href="#" class="footer-link">Политика конфиденциальности</a></li>
+
+                    
+                    <li class="footer-item"><a href="#" class="footer-link">Сообщество</a></li>
+
+                    
+                    <li class="footer-item"><a href="#" class="footer-link">Аналитика</a></li>
+
+                    
+                    <li class="footer-item"><a href="#" class="footer-link">Для организаций</a></li>
+                </ul>
+            </div>
+            <div class="col order-md-3 text-md-center">
+                <p class="footer-text">Authoritie</p>
+                <span class="wrights">© Все права защищены</span>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

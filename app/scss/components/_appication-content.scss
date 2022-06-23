@@ -1,0 +1,14 @@
+.application-content{
+    padding: 50px 0 60px 0;
+    background-color: $bg-gray;
+    .form-check &{
+        box-shadow: $app-content-shadow;
+    }
+}
+.date-input{
+    max-width: 250px;
+    width: 100%;
+    &[placeholder]{
+        color: $dark !important;
+    }
+}

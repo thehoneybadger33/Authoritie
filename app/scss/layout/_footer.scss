@@ -1,0 +1,33 @@
+.footer{
+    padding: 22px 0;
+    background-color: $footer-bg;
+}
+.footer-ico{
+    margin-right: 15px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.footer-link{
+    text-decoration: none;
+    color: $white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: end;
+    padding-left: 0;
+    @media (min-width: $size-md){
+        border-bottom: $footer-list-border;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 19px;
+        margin-bottom: 19px;
+    }
+}

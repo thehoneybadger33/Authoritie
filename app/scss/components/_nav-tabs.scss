@@ -1,0 +1,87 @@
+.nav-link{
+    .modal-body .nav-tabs &{
+    &[aria-selected="true"]{
+        border: 0;
+        border-bottom: 2px solid $primary;
+        font-size: 1.2rem;
+        line-height: 22px;
+        color: $text;
+        font-weight: 500;
+        }
+    &[aria-selected="false"]{
+        border: 0;
+        border-bottom: 1px solid $nav-border-color;
+        font-size: 1rem;
+        line-height: 16px;
+        font-weight: 400;
+        color: $nav-border-color;
+        }
+    }
+}
+.nav-link{
+    .application-form .nav-tabs &{
+        flex: 1 0;
+    &[aria-selected="true"]{
+        background-color: $nav-tabs-form-active;
+        border: none;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #6B88B6;
+        font-weight: 600;
+        margin-left: -10px;
+        z-index: 1;
+        flex-shrink: 1;
+
+    }
+    &[aria-selected="false"]{
+        background-color: $nav-tabs-form;
+        border: none;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: $nav-form-color;
+        font-weight: 500;
+        margin-left: -10px;
+        flex-shrink: 1;
+        }
+    }
+}
+.nav-tabs{
+    .application-form &{
+        padding-left: 10px;
+        max-width: 600px;
+    }
+}
+.nav-link{
+    .account-content .nav-tabs &{
+        flex: 1 0;
+    &[aria-selected="true"]{
+        background-color: $nav-tabs-form-active;
+        border: none;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #6B88B6;
+        font-weight: 600;
+        margin-left: -10px;
+        z-index: 1;
+        flex-shrink: 2;
+
+    }
+    &[aria-selected="false"]{
+        background-color: $nav-tabs-form;
+        border: none;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: $nav-form-color;
+        font-weight: 500;
+        margin-left: -10px;
+        flex-shrink: 1;
+        }
+    }
+}
+.nav-tabs{
+    .account-content &{
+        padding-left: 10px;
+        max-width: 600px;
+    }
+}
+

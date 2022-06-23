@@ -1,0 +1,9 @@
+.info-content{
+    background-color: $bg-gray;
+    padding: 50px 0 70px 0;
+}
+.info-block{
+    @media (min-width: $size-sm) {
+        padding-right: 85px;
+    }
+}

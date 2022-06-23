@@ -1,0 +1,98 @@
+.heading-top{
+    max-width: 260px;
+    width: 100%;
+    margin-bottom: 15px;
+    @media (min-width: $size-sm){
+        max-width: 365px;
+    }
+}
+.text-top{
+    margin-bottom: 15px;
+    max-width: 272px;
+    width: 100%;
+    @media (min-width: $size-sm){
+        margin-bottom: 26px;
+        max-width: 351px;
+    }
+}
+.header-lang{
+    font-size: 16px;
+    line-height: 16px;
+    color: $lang;
+    margin-left: 7px;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    &::after{
+        position: absolute;
+        content: "";
+        background-image: url(../images/ico03.svg);
+        width: 16px;
+        height: 16px;
+        top: 5px;
+        left: 28px;
+    }
+    &:hover + .lang-content{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+.lang-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 3px;
+}
+.heading-card{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: $text;
+    margin-bottom: 15px;
+}
+.card-name{
+    display: block;
+    max-width: 160px;
+    width: 100%;
+    margin-bottom: 7px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        top: 2px;
+        right: 0;
+        background: url(../images/flag01.svg) no-repeat;
+        width: 21px;
+        height: 16px;
+    }
+}
+.card-price{
+    display: block;
+    margin-bottom: 34px;
+    padding-left: 22px;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico09.svg) no-repeat;
+        width: 16px;
+        height: 16px;
+        top: 5px;
+        left: 0;
+    }
+}
+.footer-text{
+    color: $white;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.wrights{
+    white-space: nowrap;
+    color: #CACACA;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}

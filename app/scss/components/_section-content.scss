@@ -1,0 +1,77 @@
+.section-content{
+    text-align: center;
+    padding: 80px 0 60px 0;
+}
+.col-card{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 290px;
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 15px 10px;
+    background-color: $col-card-bg;
+    box-shadow: 0 5px 15px 0 $col-card-shadow;
+    @media (min-width: $size-md){
+        min-width: 340px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media (min-width: $size-xl){
+        min-width: 376px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media (min-width: $size-xxl){
+        min-width: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.border-line{
+    position: relative;
+    margin-bottom: 54px;
+    &::before{
+        position: absolute;
+        content: "";
+        top: 25px;
+        left: 0;
+        width: 29px;
+        border-radius: 10px;
+        border: 1px solid $text;
+    }
+}
+.personal-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px 0;
+    border-top: 1px solid $personal-border;
+    border-bottom: 1px solid $personal-border;
+}
+.image-card{
+    max-width: 56px;
+    width: 100%;
+}
+.personal-image{
+    border-radius: 100px;
+    object-fit: contain;
+    height: 56px;
+}
+.personal-info{
+    margin-left: 10px;
+}
+.button-holder{
+    padding: 16px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

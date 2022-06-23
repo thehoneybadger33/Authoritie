@@ -1,0 +1,38 @@
+.section-main{
+    padding-top: 51px;
+    text-align: center;
+}
+.box{
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 127px;
+}
+.media-content{
+    border: 1px solid $white;
+    border-radius: 14px;
+    box-shadow: $media-content-box-shadow;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: $white;
+    flex: 0 0 110px;
+    z-index: 2;
+    @media (min-width: $size-xs){
+        width: 119px;
+    }
+    @media(min-width: $size-xl){
+        width: 179px;
+    }
+}
+.number-img{
+    display: block;
+    position: absolute;
+    top: -22px;
+    left: -5px;
+    z-index: 0;
+    @media (min-width: $size-sm){
+        display: none;
+    }
+}

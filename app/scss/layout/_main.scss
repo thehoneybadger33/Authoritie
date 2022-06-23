@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-size: 14px;
+    line-height: 18px;
+    color: $body-color;
+    font-family: $robotoregular;
+    background-color: $body-bg;
+    height: 100%;
+}
+.wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1053px;
+    padding: 0 10px;
+    height: 100%;
+}
+.main{
+    flex: 1 1 auto;
+}

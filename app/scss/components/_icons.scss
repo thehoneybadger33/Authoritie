@@ -1,0 +1,14 @@
+.icon{
+    border: none;
+    background-color: $white;
+    color: $chat-btn;
+}
+.fas{
+    .social-links &{
+        font-size: 21px;
+        color: $icon-more;
+    }
+    .icon &{
+        font-size: 25px;
+    }
+}
